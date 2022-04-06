@@ -45,6 +45,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color:black;
+  height: 100vh;
+  width: 100vw;
 }
 
 </style>
