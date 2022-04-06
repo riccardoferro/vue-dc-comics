@@ -2,7 +2,7 @@
 <template>
     <footer>
         <div class="container70 d-flex">
-            <div class="left-side-footer d-flex wrap">
+            <div class="left-side-top-footer d-flex wrap">
                 <div>
                     <span>DC COMICS</span>
                     <ul>
@@ -53,6 +53,25 @@
             <div class="image">
             </div>
         </div>
+        <div class="middle-footer ">
+            <div class="container70 d-flex-center">
+                <button>
+                  SIGN-UP NOW!
+                </button>
+
+                <div class=" icons-footer d-flex">
+                  <span id="followus"> FOLLOW US</span>
+                  <img src="../assets/img/footer-facebook.png" alt="img logo facebook">
+                  <img src="../assets/img/footer-twitter.png" alt="img logo twitter">
+                  <img src="../assets/img/footer-youtube.png" alt="img logo youtube">
+                  <img src="../assets/img/footer-pinterest.png" alt="img logo pinterest">
+                  <img src="../assets/img/footer-periscope.png" alt="img logo periscope">
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer d-flex">
+        </div>
     </footer>
 </template>
 
@@ -70,10 +89,9 @@
       background-image: url('../assets/img/footer-bg.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 300px;
   }
 
-  .left-side-footer {
+  .left-side-top-footer {
     padding-top: 30px;
     width: 40%;
   }
@@ -83,6 +101,13 @@
     justify-content: space-between;
   }
  
+ .d-flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
  .wrap {
    flex-wrap: wrap;
  }
@@ -111,6 +136,35 @@ li {
   color: grey;
   font-size: 10px;
   padding: 4px 0;
+}
+
+.middle-footer {
+  background-color: hsl(0deg 0% 19%);
+  height: 80px;
+}
+
+button {
+  background-color: hsl(0deg 0% 19%);
+  color: white;
+  padding: 10px;
+  justify-self: center;
+  border: 2px solid hsl(209deg 98% 49%);
+  font-weight: 500;
+}
+
+#followus {
+  color: hsl(209deg 98% 49%);
+  font-weight: 700;
+  align-self: center;
+}
+
+.icons-footer * {
+  padding: 5px;
+}
+
+.bottom-footer {
+  height: 159px;
+  background-color: hsl(0deg 0% 5%);
 }
 
 </style>
