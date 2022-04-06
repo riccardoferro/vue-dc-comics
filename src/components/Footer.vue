@@ -1,10 +1,13 @@
 //HTML
 <template>
-    <footer class="d-flex">
-        <div class="container70">
-            <div></div>
+    <footer>
+        <div class="container70 d-flex">
+            <div>
+
+            </div>
             <div class="image">
             </div>
+            <!-- <img src="../assets/img/dc-logo-bg.png" alt=""> -->
         </div>
     </footer>
 </template>
@@ -34,10 +37,15 @@
 /* '../assets/img/dc-logo-bg.png' */
  
  .image {
-   width: 80%;
-   height: 600px;
-   background-image: url('../assets/img/dc-logo-bg.png');
-   background-repeat: no-repeat;
+  width:400px;
+  height:300px;
+  background-image: url('../assets/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
  }
 
+  /* img {
+    height: 400px;
+  } */
 </style>
