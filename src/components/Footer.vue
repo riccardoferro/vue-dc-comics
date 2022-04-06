@@ -70,8 +70,8 @@
                 </div>
             </div>
         </div>
-        <div class="bottom-footer d-flex">
-        </div>
+        <!-- <div class="bottom-footer d-flex">
+        </div> -->
     </footer>
 </template>
 
@@ -140,7 +140,8 @@ li {
 
 .middle-footer {
   background-color: hsl(0deg 0% 19%);
-  height: 80px;
+  height: 102px;
+  border-bottom: 20px solid hsl(0deg 0% 5%);
 }
 
 button {
@@ -162,9 +163,10 @@ button {
   padding: 5px;
 }
 
-.bottom-footer {
+/* .bottom-footer {
+  max-height: 159px;
   height: 159px;
   background-color: hsl(0deg 0% 5%);
-}
+} */
 
 </style>

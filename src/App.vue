@@ -3,6 +3,7 @@
     <div id="app">
         <Header/>
         <Main/>
+        <SectionIcons/>
         <Footer/>
     </div>
 </template>
@@ -12,14 +13,15 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
-
+import SectionIcons from './components/SectionIcons.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    SectionIcons
   }
 }
 </script>
