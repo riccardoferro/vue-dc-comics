@@ -26,12 +26,25 @@ export default {
 
 //CSS MAIN
 <style lang="scss">
+
+//general settings
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color:black;
 }
+
 </style>
