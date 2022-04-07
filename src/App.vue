@@ -2,6 +2,7 @@
 <template>
     <div id="app">
         <Header/>
+        <Jumbotron/>
         <!-- here we send to the component main the data comics book -->
         <Main :comics="dc_comics"/>
         <SectionIcons/>
@@ -17,6 +18,8 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 import SectionIcons from './components/SectionIcons.vue'
+import Jumbotron from './components/Jumbotron.vue'
+
 
 //here we take an array of object from data
 import dc_comics from '@/assets/data/dc-comics'
@@ -34,7 +37,8 @@ export default {
     Header,
     Main,
     Footer,
-    SectionIcons
+    SectionIcons,
+    Jumbotron
   }
 }
 </script>
