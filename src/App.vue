@@ -2,6 +2,7 @@
 <template>
     <div id="app">
         <Header/>
+        <!-- here we send to the component main the data comics book -->
         <Main :comics="dc-comics"/>
         <SectionIcons/>
         <Footer/>
