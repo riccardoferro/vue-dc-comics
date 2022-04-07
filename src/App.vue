@@ -2,7 +2,7 @@
 <template>
     <div id="app">
         <Header/>
-        <Main/>
+        <Main :comics="dc-comics"/>
         <SectionIcons/>
         <Footer/>
     </div>
