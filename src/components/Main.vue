@@ -2,14 +2,27 @@
 <template>
     <main>
         <div class="container70">
+            <!-- we gonna create a single comic for each element in the data dc-comics -->
+            <SingleComic v-for="(comic,index) in comics" :key="'comic'+index"/>
+            
         </div>
     </main>
 </template>
 
 //JS
 <script>
+
+//here we import a single comic with his info
+import SingleComic from '@/components/subcomponents/SingleComic.vue'
+
   export default {
-      name: "ComponentMain"
+      name: "ComponentMain",
+      props: {
+          comics: Array
+      },
+      components: {
+          SingleComic,
+      }
   }
 </script>
 
