@@ -1,7 +1,7 @@
 //HTML
 <template>
     <main>
-        <div class="container70">
+        <div class="container70 d-flex">
             <!-- we gonna create a single comic for each element in the data dc-comics
                 so we gonna create an other sub-component and send him the single comic (object)
              -->
@@ -37,14 +37,21 @@ import SingleComic from '@/components/subcomponents/SingleComic.vue'
 </script>
 
 //CSS
-<style scoped>
+<style lang="scss" scoped>
 
+main {
+    min-height: 80px;
+    font-weight: 1000;
+    color: white;
+    background-color: hsl(0deg 0% 11%);
+    padding-top: 30px;
+}
 
-    main {
-        min-height: 80px;
-        font-weight: 1000;
-        color: white;
-        background-color: hsl(0deg 0% 11%);
-    }
+.d-flex {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 </style>
