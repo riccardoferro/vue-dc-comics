@@ -8,16 +8,16 @@
             <!-- navbar -->
             <div>
                 <ul class="d-flex">
-                  <li>CHARACTERS</li>
-                  <li>COMICS</li>
-                  <li>MOVIES</li>
-                  <li>TV</li>
-                  <li>GAMES</li>
-                  <li>COLLECTIBLES</li>
-                  <li>VIDEOS</li>
-                  <li>FANS</li>
-                  <li>NEWS</li>
-                  <li>SHOP</li>
+                    <li>CHARACTERS</li>
+                    <li>COMICS</li>
+                    <li>MOVIES</li>
+                    <li>TV</li>
+                    <li>GAMES</li>
+                    <li>COLLECTIBLES</li>
+                    <li>VIDEOS</li>
+                    <li>FANS</li>
+                    <li>NEWS</li>
+                    <li>SHOP</li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,6 @@
 
 /* Header custom */
 header {
-  min-height: 80px;
   border-top: 25px solid black;
   padding: 15px 0;
 }

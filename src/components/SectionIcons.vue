@@ -39,9 +39,8 @@ export default {
 <style scoped>
 
 section {
-  padding: 43px 0;
+  padding: 40px 0;
   background-color: hsl(209deg 98% 49%);
-  
 }
 
 .d-flex {

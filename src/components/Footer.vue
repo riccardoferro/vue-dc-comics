@@ -113,12 +113,12 @@
  }
 
  .image {
-  width:400px;
-  height:300px;
-  background-image: url('../assets/img/dc-logo-bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    width:400px;
+    height:300px;
+    background-image: url('../assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
  }
 
 div {
@@ -140,7 +140,6 @@ li {
 
 .middle-footer {
   background-color: hsl(0deg 0% 19%);
-  height: 102px;
   border-bottom: 20px solid hsl(0deg 0% 5%);
 }
 
