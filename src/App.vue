@@ -3,7 +3,7 @@
     <div id="app">
         <Header/>
         <!-- here we send to the component main the data comics book -->
-        <Main :comics="dc-comics"/>
+        <Main :comics="dc_comics"/>
         <SectionIcons/>
         <Footer/>
     </div>
