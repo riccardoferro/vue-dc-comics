@@ -10,13 +10,25 @@
 
 //JS MAIN
 <script>
+
+// components
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 import SectionIcons from './components/SectionIcons.vue'
 
+//here we take an array of object from data
+import dc_comics from '@/assets/data/dc-comics'
+
 export default {
   name: 'App',
+
+  data: function() {
+
+    // we need an object so we put the data in the brackets
+    return { dc_comics }
+  },
+
   components: {
     Header,
     Main,
@@ -26,7 +38,9 @@ export default {
 }
 </script>
 
-//CSS MAIN
+
+
+/*********** CSS MAIN */
 <style lang="scss">
 
 //general settings

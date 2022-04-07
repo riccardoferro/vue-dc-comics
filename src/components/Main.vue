@@ -2,7 +2,6 @@
 <template>
     <main>
         <div class="container70">
-            <span>  --&gt; Content goes here &lt;-- </span>
         </div>
     </main>
 </template>
